@@ -1,0 +1,13 @@
+.container {
+  margin: 5% auto;
+}
+
+button {
+  display: block !important;
+  margin: 10px auto !important;
+  width: 150px !important;
+}
+
+ol li {
+  cursor: pointer;
+}
