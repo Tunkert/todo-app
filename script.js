@@ -24,7 +24,9 @@ form.addEventListener("submit", (e) => {
 
 let orderedTaskList = document.getElementById("orderedTaskList");
 
-listTasks.addEventListener("click", function() {
+taskList.addEventListener("click", function() {
+  taskList.disabled = true;
+  console.log("hello")
   for(let i = 0; i < tasks.length; i++) {
     const taskItem = document.createElement("li");
     taskItem.innerText = tasks[i];
